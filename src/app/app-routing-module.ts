@@ -7,6 +7,7 @@ const routes: Routes = [
     path: 'javascript',
     loadChildren: () => import('./javascript/javascript-module').then((m) => m.JavascriptModule),
   },
+  { path: 'angular', loadChildren: () => import('./angular/angular-module').then(m => m.AngularModule) },
 ];
 
 @NgModule({

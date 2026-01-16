@@ -1,0 +1,121 @@
+<section class="note-section">
+  <header class="note-header">
+    <h1 class="note-title">Intro</h1>
+    <p class="note-subtitle">Angular basics and setup overview</p>
+  </header>
+
+  <!-- What is Angular -->
+  <div class="note-card">
+    <h2 class="note-heading">What is Angular?</h2>
+
+    <ul class="note-list">
+      <li>Angular is a frontend JavaScript framework</li>
+      <li>It helps with building interactive, modern web user interfaces</li>
+      <li>
+        It's also a collection of tools & features like:
+        <strong>CLI, Debugging Tools, IDE Plugins</strong>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Why Angular -->
+  <div class="note-card">
+    <h2 class="note-heading">Why using Angular?</h2>
+
+    <ul class="note-list">
+      <li>Simplifies building complex, interactive web UI</li>
+      <li>Write declarative code instead of imperative code</li>
+      <li>Separation of concerns via components</li>
+      <li>Uses object-oriented programming concepts & principles</li>
+      <li>Uses TypeScript ✅</li>
+    </ul>
+  </div>
+
+  <!-- New Project -->
+  <div class="note-card">
+    <h2 class="note-heading">New Project</h2>
+
+    <ul class="note-list">
+      <li>
+        Angular Installation:
+        <code>npm install -g &#64;angular/cli</code>
+      </li>
+      <li>
+        New Project:
+        <code>ng new project-name</code>
+      </li>
+      <li>
+        Extensions:
+        <strong>Angular Language Service</strong> (angular.io),
+        <strong>Angular Essentials</strong>
+      </li>
+      <li>
+        Run Project:
+        <code>npm start</code> or <code>ng serve</code>
+      </li>
+      <li>
+        Local Website:
+        <code>http://localhost:4200/</code>
+      </li>
+      <li>
+        Stop Project:
+        <code>ctrl + c</code>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Structure -->
+  <div class="note-card">
+    <h2 class="note-heading">Angular Project Structure</h2>
+
+    <p class="note-text">
+      Angular project contains TypeScript files, JSON files, src folder and other
+      important config files.
+    </p>
+
+    <div class="note-subcard">
+      <h3 class="note-subheading">Important files/folders</h3>
+
+      <ul class="note-list">
+        <li>
+          <strong>TypeScript Files</strong> → compiled to JavaScript (handled by Angular CLI)
+        </li>
+        <li>
+          <strong>JSON Files</strong>
+          <ul class="note-list">
+            <li><code>package.json</code> → manages dependencies</li>
+            <li><code>angular.json</code> → Angular CLI configuration</li>
+          </ul>
+        </li>
+        <li>
+          <strong>src/</strong>
+          <ul class="note-list">
+            <li><code>app/</code> → components & services ✅ (main development)</li>
+            <li><code>styles.scss</code> → global stylesheet</li>
+            <li><code>index.html</code> → main HTML file</li>
+            <li><code>main.ts</code> → entry point</li>
+            <li><code>assets/</code> → static files</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Other Important Files</strong>
+          <ul class="note-list">
+            <li><code>.editorconfig</code> → code formatting rules</li>
+            <li><code>.gitignore</code> → git tracking rules</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <p class="note-highlight">
+      ✅ Focus mainly on the <code>app/</code> folder while developing.
+    </p>
+  </div>
+
+  <!-- Build -->
+  <div class="note-card">
+    <h2 class="note-heading">Build Project</h2>
+
+    <pre class="note-code"><code>ng build --output-path=docs --base-href /templates/</code></pre>
+  </div>
+</section>

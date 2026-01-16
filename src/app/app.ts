@@ -9,5 +9,8 @@ import { Component, signal } from '@angular/core';
 export class App {
   protected readonly title = signal('CodeKeeper');
 
-  navMenusProp: any = [{ icon: 'sticky_note_2', text: 'Javascript', route: 'javascript' }];
+  navMenusProp: any = [
+    { icon: 'sticky_note_2', text: 'Javascript', route: 'javascript' },
+    { icon: 'sticky_note_2', text: 'Angular', route: 'angular' }
+  ];
 }
